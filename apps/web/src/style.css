@@ -1,0 +1,12 @@
+@import "tailwindcss";
+
+/* keep it minimal */
+html,
+body,
+#app {
+  height: 100%;
+}
+body {
+  background: #131313;
+  color: #e5e7eb;
+}

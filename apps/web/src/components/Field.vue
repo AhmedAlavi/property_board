@@ -28,11 +28,13 @@
 
 <script setup lang="ts">
 import { useField } from "vee-validate";
+
 const props = defineProps<{
   label: string;
   name: string;
   type?: "text" | "number" | "textarea";
   step?: string;
 }>();
-const { value, errorMessage } = useField(props.name);
+
+const { value, errorMessage } = useField<string | number>(props.name);
 </script>

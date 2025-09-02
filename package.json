@@ -1,7 +1,7 @@
 {
   "name": "mini-property-board",
   "private": true,
-  "packageManager": "pnpm@9",
+  "packageManager": "pnpm@9.12.2",
   "workspaces": [
     "apps/*",
     "packages/*"
